@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# advanced-todo-app
-=======
-# Getting Started with Create React App
-=======
 # TaskFlow - Advanced Todo App
 >>>>>>> a134d4c (Update README.md)
 

@@ -1,4 +1,5 @@
 # TaskFlow - Advanced Todo App
+
 TaskFlow is a modern and efficient personal task manager built using React and Redux. It features a sleek, responsive UI with animated backgrounds, allowing users to create, manage, and complete tasks effortlessly.
 
 ## Features
@@ -46,13 +47,13 @@ TaskFlow is a modern and efficient personal task manager built using React and R
 ## Screenshots
 
 - **Login Page:** A simple yet elegant login interface with an animated background.
-![image](https://github.com/user-attachments/assets/5c1a4c6e-075a-4346-99cb-8cb4b5796121)
+![Screenshot 2025-03-26 173904](https://github.com/user-attachments/assets/71a15261-a498-443f-ba84-a9f0a270f6b5)
 
 - **Dashboard:** Displays task input functionality and task lists.
-![image](https://github.com/user-attachments/assets/315f7369-2dca-4168-a2a8-41e0137933c0)
+![Screenshot 2025-03-26 173948](https://github.com/user-attachments/assets/3b30e767-c058-4000-bf1d-b4ec8b83734f)
 
 - **Task Details:** Tasks include descriptions, completion status, and optional attachments.
-![image](https://github.com/user-attachments/assets/9813fba5-8dda-47f7-b5ec-90a5bccbcec1)
+![Screenshot 2025-03-26 174530](https://github.com/user-attachments/assets/7ddc3d1c-6c89-4013-8614-6764c9724695)
 
 
 ## Detailed Overview
@@ -73,26 +74,3 @@ The Redux store (`store.js`) integrates both the authentication and task managem
 
 Enjoy using TaskFlow to enhance your productivity!
 
-<<<<<<< HEAD
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> 255a67b (Initialize project using Create React App)
-=======
->>>>>>> a134d4c (Update README.md)

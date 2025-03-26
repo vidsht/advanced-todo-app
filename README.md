@@ -1,6 +1,4 @@
 # TaskFlow - Advanced Todo App
->>>>>>> a134d4c (Update README.md)
-
 TaskFlow is a modern and efficient personal task manager built using React and Redux. It features a sleek, responsive UI with animated backgrounds, allowing users to create, manage, and complete tasks effortlessly.
 
 ## Features

@@ -1,57 +1,87 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # advanced-todo-app
 =======
 # Getting Started with Create React App
+=======
+# TaskFlow - Advanced Todo App
+>>>>>>> a134d4c (Update README.md)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TaskFlow is a modern and efficient personal task manager built using React and Redux. It features a sleek, responsive UI with animated backgrounds, allowing users to create, manage, and complete tasks effortlessly.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication:** Simple username-based login powered by Redux ([`authSlice`](src/redux/authSlice.js)).
+- **Task Management:** Easily add, edit, delete, and mark tasks as completed, with persistence in local storage via Redux ([`taskSlice`](src/redux/taskSlice.js)).
+- **File Uploads:** Attach images to tasks using Cloudinary integration ([`uploadFileToCloudinary`](src/services/cloudinaryService.js)).
+- **Responsive UI:** Enjoy a well-organized and visually appealing interface on any device, thanks to custom CSS ([`home.css`](src/styles/home.css), [`login.css`](src/styles/login.css), [`TaskList.css`](src/styles/TaskList.css)).
+- **Seamless Navigation:** React Router ensures smooth navigation and authentication-based route protection.
 
-### `npm start`
+## Setup & Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the Repository**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```sh
+   git clone <repository-url>
+   cd advanced-todo-app
+   ```
 
-### `npm test`
+2. **Install Dependencies**
+   
+   ```sh
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Run the Application**
+   
+   ```sh
+   npm start
+   ```
+   Open http://localhost:3000 in your browser. The page reloads automatically upon code changes.
 
-### `npm run build`
+4. **Run Tests**
+   
+   ```sh
+   npm test
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. **Build for Production**
+   
+   ```sh
+   npm run build
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Login Page:** A simple yet elegant login interface with an animated background.
+![image](https://github.com/user-attachments/assets/5c1a4c6e-075a-4346-99cb-8cb4b5796121)
 
-### `npm run eject`
+- **Dashboard:** Displays task input functionality and task lists.
+![image](https://github.com/user-attachments/assets/315f7369-2dca-4168-a2a8-41e0137933c0)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Task Details:** Tasks include descriptions, completion status, and optional attachments.
+![image](https://github.com/user-attachments/assets/9813fba5-8dda-47f7-b5ec-90a5bccbcec1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Detailed Overview
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Authentication Flow
+The login page (`Login.js`) allows users to enter a valid username. Upon submission, the login action is dispatched, and the user is redirected to the home page (`Home.js`).
 
-## Learn More
+### Task Input & Management
+The task input form (`TaskInput.js`) lets users add a title and description and optionally attach an image. The timestamp is formatted and stored via the `addTask` action.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Task List Functionality
+Tasks are displayed in an interactive list (`TaskList.js`). Users can edit tasks inline, mark them complete, or delete them. All state updates are efficiently managed by Redux.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### State Management & Persistence
+The Redux store (`store.js`) integrates both the authentication and task management slices, ensuring data persists in local storage across user sessions.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Enjoy using TaskFlow to enhance your productivity!
 
+<<<<<<< HEAD
 ### Analyzing the Bundle Size
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
@@ -72,3 +102,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> 255a67b (Initialize project using Create React App)
+=======
+>>>>>>> a134d4c (Update README.md)
